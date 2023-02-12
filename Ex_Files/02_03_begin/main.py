@@ -7,7 +7,7 @@ PAUL = NAMES[1]
 JOHN_PAUL = NAMES[:2]
 GEORGE_RINGO = NAMES[2:]
 REVERSE = NAMES[::-1]
-EVERY_OTHER = NAMES[::2]
+EVERY_OTHER = NAMES[::2] # start / stop / step
 
 print(sum(AGES))
 print(min(AGES))
